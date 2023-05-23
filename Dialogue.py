@@ -12,12 +12,12 @@ def gameStart():
   sleep(5)
   print("Recently you have been craving pickles.")
   sleep(4)
-  system('clear')
+  system('cls')
   print("You suddenly wake up in the middle of the night.")
   sleep(1.5)
   print("You NEED pickles. No not just pickles.. pickle juice.")
   sleep(3)
-  system('clear')
+  system('cls')
 
 def buck():
   print("You see a lot of points in the darkness that surrounds you.\n")
