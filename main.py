@@ -3,7 +3,6 @@
 # Project: Final
 # Grayson Beamesderfer
 
-from os import system
 from time import sleep
 from Player import Player
 from Enemies import Enemies
