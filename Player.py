@@ -53,7 +53,7 @@ class Player():
         choice = -999
     choiceName = choices[choice-1]
     posDmg = self.open(choiceName)
-    system('clear')
+    system('cls')
     return posDmg
 
   def open(self, option):
@@ -264,7 +264,7 @@ class Player():
       return Scythe().use(self.getLuck())
 
   def fight(self, enemy):
-    system("clear")
+    system("cls")
     print('''
 ███████╗██╗ ██████╗ ██╗  ██╗████████╗██╗
 ██╔════╝██║██╔════╝ ██║  ██║╚══██╔══╝██║
@@ -274,7 +274,7 @@ class Player():
 ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝
                                         ''')
     sleep(3)
-    system("clear")
+    system("cls")
     print(enemy)
     print(self)
     if isinstance(enemy, Buck) == False:
@@ -286,7 +286,7 @@ class Player():
         sleep(3)
         if self.isAlive() == False:
           return None
-      system("clear")
+      system("cls")
       while enemy.isAlive():
         print(enemy)
         print(self)
@@ -303,7 +303,7 @@ class Player():
             if self.isAlive() == False:
               return None
           sleep(3)
-        system("clear")
+        system("cls")
     else:
       input("Press Enter To Try And Defeat The Buck.")
       posDmg = enemy.removeHealth(self.getLuck())
