@@ -50,3 +50,5 @@ if __name__ == '__main__':
 # Highscore Feature
 # Rat When Exploring
 # More Graphics
+# Add Dialogue Thing
+# Aaron's Gambling Machine
