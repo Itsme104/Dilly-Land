@@ -1,7 +1,6 @@
 # Name: Ryan Stone
 # Date: 5/19/2023
 # Project: Final
-# Grayson Beamesderfer
 
 from time import sleep
 from Player import Player
@@ -42,3 +41,8 @@ if __name__ == '__main__':
   except:
     print("The Game Broke")
     sleep(86400)
+    
+    
+# Dirt Road Explore
+# Drink Alcohol Reset
+# Universal Sleep
