@@ -13,7 +13,7 @@ class Enemies():
     return f"Enemy: {self.name}\n   Hp: {self.hp}\n \n**chaotic {self.name} noises**\n\n"
 
   def reward(self):
-    if randint(1, 45) == 1 and self.rarity != 3:
+    if randint(1, 60) == 1 and self.rarity != 3:
       return "Jank Shotgun"
     if self.rarity == 0:
       return randint(1, 5)
