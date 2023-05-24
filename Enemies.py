@@ -1,6 +1,5 @@
 # Name: Ryan Stone
-# Date: 5/19/2023
-# Project: Enemies Classes
+# Date: 5/24/2023
 
 from random import randint, triangular
 
@@ -14,7 +13,7 @@ class Enemies():
     return f"Enemy: {self.name}\n   Hp: {self.hp}\n \n**chaotic {self.name} noises**\n\n"
 
   def reward(self):
-    if randint(1, 30) == 1 and self.rarity != 3:
+    if randint(1, 45) == 1 and self.rarity != 3:
       return "Jank Shotgun"
     if self.rarity == 0:
       return randint(1, 5)
