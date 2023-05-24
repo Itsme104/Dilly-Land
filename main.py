@@ -46,3 +46,7 @@ if __name__ == '__main__':
 # Dirt Road Explore
 # Drink Alcohol Reset
 # Universal Sleep
+# Difficulty Changer
+# Highscore Feature
+# Rat When Exploring
+# More Graphics
