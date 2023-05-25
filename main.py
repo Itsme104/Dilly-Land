@@ -1,6 +1,7 @@
 # Name: Ryan Stone
 # Date: 5/19/2023
-# Project: Final
+
+# Shotgun Rarity Went Up
 
 from time import sleep
 from Player import Player
