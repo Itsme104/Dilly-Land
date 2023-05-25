@@ -1,5 +1,5 @@
 # Name: Ryan Stone
-# Date: 5/24/2023
+# Date: 5/25/2023
 
 from random import randint, triangular
 
@@ -91,7 +91,7 @@ class Buck(Enemies):
         print("\nYou Seem To Be Very Lucky...\nBut That Alone Is Not Enough.\n")
         return self.attack()
     else:
-      print("\nThe Buck Seems Uneffected By Your Attack.\n")
+      print("\nThe Buck Seems Unaffected By Your Attack.\n")
       return self.attack()
 
   def attack(self):
